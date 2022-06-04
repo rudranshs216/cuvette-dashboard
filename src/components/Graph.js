@@ -3,13 +3,22 @@ import { useStateContext } from '../contexts/ContextProvider'
 import "./Graph.css"
 
 const Graph = () => {
-  const { percentile } = useStateContext();
+  const { percentile} = useStateContext();
+  let a, x, y, z;
   //dyanmically changing the blue line.
-  let x = percentile * 6.5 + 115 + "px";
+  x = percentile * 6.5 + 115 + "px";
   //dynamically changing the blue div.
-  let y = (Math.floor(percentile / 20)) * 131.4 + 264 + "px";
+  if (percentile === "100") {
+    y = "789.6px";
+  }
+  else {
+    y = (Math.floor(percentile / 20)) * 131.4 + 264 + "px";
+  }
+
   //dynamically changing the blue dot.
-  let z = percentile * 6.5 + 261.5 + "px";
+  z = percentile * 6.5 + 261.5 + "px";
+
+  a = percentile * 6.5 + 280;
 
   return (
     <div className='graph'>
@@ -41,7 +50,9 @@ const Graph = () => {
         <hr style={{ left: "638.2px" }} className="vertical" />
         <p style={{ left: "782.6px" }}>80%</p>
         <p style={{ left: "900px" }}>100%</p>
-        <hr style={{ left: "618px" }} />
+        <hr style={{ left: "583px" }} />
+
+
 
         <div className="orangeDot" />
         <div className="blueDiv">
@@ -49,6 +60,15 @@ const Graph = () => {
           <div style={{ left: z }} className="blueDot" />
         </div>
         <div style={{ left: y }} className="coverDiv">
+        </div>
+        <div className="black">
+          <svg style={{ left: a + "px" }} width="27" height="32" viewBox="0 0 27 32" className='blackTri' fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1.96313 18.529C0.114852 17.3495 0.114851 14.6505 1.96313 13.471L21.8862 0.75764C23.8832 -0.516698 26.5 0.917643 26.5 3.2866L26.5 28.7134C26.5 31.0824 23.8832 32.5167 21.8862 31.2424L1.96313 18.529Z" fill="#1E272E" />
+          </svg>
+          <div style={{ left: a + 15 + "px" }} className="blackDiv">
+            <h6>{percentile}% Percentile</h6>
+            <p>Your score</p>
+          </div>
         </div>
       </div>
     </div>
