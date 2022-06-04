@@ -1,0 +1,29 @@
+.syllabus-wise-analysis {
+  box-sizing: border-box;
+  align-items: center;
+  border: 1px solid #ebf0f5;
+  border-radius: 10px;
+  padding: 30px;
+  width: 386px;
+  height: 429px;
+  margin-bottom: 30px;
+}
+.syllabus-heading {
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: -0.02em;
+  color: #1e272e;
+}
+.syllabus {
+  width: 326px;
+  margin: auto;
+}
+h3 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  letter-spacing: -0.02em;
+  color: #566474;
+}

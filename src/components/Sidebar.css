@@ -1,0 +1,44 @@
+.sidebar {
+  padding-top: 44px;
+  width: 226px;
+  height: 958px;
+  border-right: 1px solid #ebf0f5;
+}
+.sideItem > p {
+  width: 81px;
+  height: 28px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #566474;
+}
+.sideItem {
+  box-sizing: border-box;
+  padding: 4px 50px 18px 0;
+  width: calc(226px - 40px);
+  height: 50px;
+  border-radius: 0px 100px 100px 0px;
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+.sideItem > img {
+  width: 20px;
+  height: 26px;
+  margin-right: 16px;
+  margin-left: 35px;
+}
+.sideItem:hover {
+  background-color: #f7f8fa;
+  cursor: pointer;
+}
+.sideItem:hover > p {
+  color: #445ee2;
+}
+.active {
+  background-color: #f7f8fa;
+}
+.active > p {
+  color: #445ee2;
+  font-weight: 700;
+}

@@ -1,0 +1,142 @@
+.popup {
+  z-index: 999;
+  height: 1046px;
+  width: 100vw;
+  background: rgba(30, 39, 46, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+.containt {
+  position: absolute;
+  width: 880px;
+  height: 521px;
+
+  background: #ffffff;
+  border-radius: 10px;
+}
+.top {
+  height: 125px;
+  margin: 0 40px;
+  border-bottom: 1px solid #ebf0f5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.top > p {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 47px;
+  letter-spacing: -0.02em;
+
+  color: #222f3e;
+}
+.top > img {
+  width: 45px;
+  height: 47.45px;
+}
+.middle {
+  height: 250px;
+  margin: 0 40px;
+  border-bottom: 1px solid #ebf0f5;
+}
+.middle > .item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px 0;
+}
+.middle > .item > .text {
+  display: flex;
+  align-items: center;
+}
+.middle > .item > .text > p {
+  margin-left: 20px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: -0.02em;
+  color: #566474;
+}
+.num {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 28px;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #142683;
+}
+.input > input {
+  background: transparent;
+  outline: none;
+  border: none;
+  width: 150px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: -0.02em;
+  color: #142683;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+.input {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 157px;
+  align-items: center;
+  padding: 8px;
+  border: 1px solid #142683;
+  border-radius: 5px;
+}
+.bottom {
+  margin: 0 50px;
+  height: 100px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+button {
+  cursor: pointer;
+  margin: 0 20px;
+  padding: 8px 16px;
+  background: #ffffff;
+  border-radius: 10px;
+  border: none;
+  border: 1px solid #142683;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: -0.02em;
+  color: #142683;
+}
+.save {
+  color: #ffffff;
+  background-color: #142683;
+}
+.saveIcon {
+  color: white;
+  position: relative;
+  top: 3px;
+}

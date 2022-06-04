@@ -1,0 +1,120 @@
+.graph {
+  box-sizing: border-box;
+  width: 717px;
+  height: 525px;
+  border: 1px solid #ebf0f5;
+  border-radius: 10px;
+  padding: 30px;
+}
+.graphText > h6 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+  color: #1e272e;
+  margin-bottom: 20px;
+}
+.graphText > p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #566474;
+}
+.graphText > p > span {
+  font-weight: 700;
+}
+.graphContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.graphLogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #f7f8fa;
+  border: 1px solid #ebf0f5;
+  margin-right: 20px;
+}
+.chartDiv {
+  box-sizing: border-box;
+  width: 657px;
+  height: 307px;
+  border: 1px solid #f7f8fa;
+  border-radius: 10px;
+}
+.graphChart > p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #9eaab7;
+  position: absolute;
+  top: 970px;
+}
+
+hr {
+  position: absolute;
+  width: 304px;
+  height: 0px;
+  top: 795px;
+  border: none;
+  border-bottom: 1px dashed #ff9142;
+  transform: rotate(-90deg);
+}
+.chartDiv > svg {
+  position: absolute;
+  width: 648px;
+  height: 177px;
+  left: 265px;
+  top: 764px;
+}
+.blue {
+  position: absolute;
+  width: 304px;
+  height: 0px;
+  top: 795px;
+  background: #438af6;
+  border: none;
+  border-bottom: 1px dashed #438af6;
+  transform: rotate(-90deg);
+}
+.vertical {
+  border: 1px dashed #ebf0f5;
+}
+.coverDiv {
+  position: absolute;
+  width: 131.4px;
+  height: 307px;
+  top: 641px;
+  background: #438af6;
+  opacity: 0.1;
+}
+.graph > svg {
+  position: absolute;
+  width: 124px;
+  height: 95px;
+  left: 426px;
+  top: 764px;
+  border: 2px solid #438af6;
+  border-radius: 2px;
+}
+.orangeDot {
+  position: absolute;
+  width: 11px;
+  height: 11px;
+  left: 764.5px;
+  top: 758px;
+  border-radius: 50%;
+  background: #ff9142;
+}
+.blueDot {
+  position: absolute;
+  width: 11px;
+  height: 11px;
+  top: 758px;
+  border-radius: 50%;
+  background: #438af6;
+}

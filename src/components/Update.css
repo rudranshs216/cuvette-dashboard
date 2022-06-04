@@ -1,0 +1,50 @@
+.update {
+  box-sizing: border-box;
+  width: 717px;
+  height: 109px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  border: 1px solid #ebf0f5;
+  border-radius: 10px;
+}
+.updateLeft {
+  display: flex;
+  align-items: center;
+}
+.updateLeftContent > h3 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  color: #222f3e;
+}
+.updateLeftContent > p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 180%;
+  color: #566474;
+}
+.updateLeft > img {
+  height: 50px;
+  width: 45px;
+  margin-right: 20px;
+}
+
+.updateRight > button {
+  width: 120px;
+  height: 44px;
+  padding: 4px;
+  gap: 8px;
+  background: #142683;
+  border-radius: 5px;
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 28px;
+}
+.hii {
+  position: absolute;
+  top: calc(-100vh / 2);
+  left: +500px;
+}

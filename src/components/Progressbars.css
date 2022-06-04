@@ -1,0 +1,50 @@
+.progressbar {
+  align-items: center;
+  margin: 20px 0;
+}
+.progressbarHea {
+  margin: 10px 0;
+}
+.progressbarHea h2 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #566474;
+}
+.bar {
+  width: 197px;
+}
+.barLine {
+  height: 10px;
+  border-radius: 40px;
+  z-index: 99;
+  position: relative;
+  top: -10px;
+  animation: progress 1500ms ease-in-out;
+}
+@keyframes progress {
+  from {
+    width: 0;
+  }
+}
+.progressbarHeading {
+  width: 90%;
+}
+.parent {
+  width: 100%;
+  height: 10px;
+  opacity: 0.1;
+  border-radius: 40px;
+}
+.barTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.barTop > span {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+  position: relative;
+  bottom: 5px;
+}
