@@ -105,7 +105,7 @@ hr {
   position: absolute;
   width: 11px;
   height: 11px;
-  left: 764.5px;
+  left: 729px;
   top: 758px;
   border-radius: 50%;
   background: #ff9142;
@@ -117,4 +117,29 @@ hr {
   top: 758px;
   border-radius: 50%;
   background: #438af6;
+}
+.blackDiv {
+  padding: 20px;
+  position: absolute;
+  width: 175px;
+  height: 81px;
+  top: 704px;
+  background: #1e272e;
+  border-radius: 5px;
+}
+.blackDiv > h6 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  color: #ffffff;
+}
+.blackDiv > p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: rgba(255, 255, 255, 0.7);
+}
+.blackTri {
+  position: absolute;
+  top: 740px;
 }
